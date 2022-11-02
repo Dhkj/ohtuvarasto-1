@@ -15,10 +15,10 @@ max-line-length=80
 
 [REFACTORING]
 
-max-nested-blocks=1
+max-nested-blocks=5
 
 [DESIGN]
 
-too-complex=3
+max-complexity=3
 max-args=3
 max-statements=15
