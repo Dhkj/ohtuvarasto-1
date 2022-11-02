@@ -1,0 +1,24 @@
+[MASTER]
+
+ignore=tests,index.py
+load-plugins=pylint.extensions.mccabe
+
+[MESSAGE CONTROL]
+
+disable=missing-module-docstring,
+        missing-function-docstring,
+        missing-class-docstring,
+
+[FORMAT]
+
+max-line-length=80
+
+[REFACTORING]
+
+max-nested-blocks=1
+
+[DESIGN]
+
+too-complex=3
+max-args=3
+max-statements=15
